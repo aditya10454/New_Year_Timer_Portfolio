@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Ranjan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Container -->
+    <div class="container">
+        <!-- Left Side: Countdown Timer -->
+        <div class="left-side">
+            <h2>New Year Countdown Timer</h2>
+            <p id="countdown">Loading...</p>
+            <button id="previewBtn">Preview <img src="./recy_task_pic.jpeg" alt=""></button>
+        </div>
+
+        <!-- Right Side: Portfolio -->
+        <div class="right-side">
+            <h2>Portfolio</h2>
+            <h3>Name: Aditya Ranjan</h3>
+            <h3>Institute: Indian Institute of Technology Kanpur</h3>
+            <h3>Skills: C, C++, Javascript, Android(Native), Flutter(Dart), Python, Git, Frontend, SQL, Machine Learning</h3>
+            <h3>Projects:</h3>
+            <ul class="portfolio">
+                <li>Project 1: Analysis of Ionospheric Anomalies before Earthquakes | Prof. Deepa Mele Veedu</li>
+                <li>Project 2: Liquid Galaxy | App for GSoC 2024</li>
+                <li>Project 3: InvestX - Option Price Prediction </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom: New Year Resolution Box -->
+    <div class="resolutions-container">
+        <h2>New Year Resolutions</h2>
+        <div>
+            <input type="text" id="new-resolution" placeholder="Add a new resolution here...">
+            <button id="add-resolution-btn">Add Resolution</button>
+        </div>
+        <ul class="resolution-list" id="resolution-list">
+            <!-- Resolutions will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

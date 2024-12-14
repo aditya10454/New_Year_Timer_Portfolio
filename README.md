@@ -20,4 +20,5 @@ This project is a simple, responsive web application featuring a New Year Countd
 ## 📂 Project Structure
 
 The project is divided into separate files for modularity:
+![image](https://github.com/user-attachments/assets/03bae705-1a69-43e3-96f1-f13dec31d784)
 
